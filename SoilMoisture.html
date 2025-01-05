@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Moisture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            border-radius: 10px;
+        }
+
+        .card-header {
+            background-color: #e3f2fd;
+            font-weight: bold;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-12">
+                <div class="container mt-4">
+                    <h3>Soil Moisture</h3>
+                    <div class="row mt-3">
+                        <!-- Current Moisture of Soil -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">Current Moisture of Soil</div>
+                                <div class="card-body">
+                                    <h4 class="text-center">75%</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Moisture Threshold -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">Moisture Thresholds</div>
+                                <div class="card-body">
+                                    <h4 class="text-center text-success">60%</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Crop Insights -->
+                        <div class="col-md-6 mt-4">
+                            <div class="card">
+                                <div class="card-header">Crop Insights</div>
+                                <div class="card-body">
+                                    <p>Current crop: <strong>Wheat</strong></p>
+                                    <p>Moisture for wheat: <strong>40%-60%</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Irrigation History -->
+                        <div class="col-md-6 mt-4">
+                            <div class="card">
+                                <div class="card-header">Irrigation History</div>
+                                <div class="card-body">
+                                    <p>Last watering: <strong>January 1, 2025, 6:00 AM</strong></p>
+                                    <p>Duration: <strong>1 hour 15 minutes</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Motor Status -->
+                        <div class="col-md-12 mt-4">
+                            <div class="card">
+                                <div class="card-header">Motor Status</div>
+                                <div class="card-body">
+                                    <p>Status: <strong class="text-success">ON</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Weather Prediction -->
+                        <div class="col-md-12 mt-4">
+                            <div class="card">
+                                <div class="card-header">Weather Prediction Based on Sensors</div>
+                                <div class="card-body">
+                                    <p>Data will be displayed here...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
